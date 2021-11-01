@@ -10,7 +10,7 @@ router.post('/user'  , new CreateUserController().handle )
 
 router.post('/list/user' , new ListUserController().handle )
 
-router.post('/update/user' , new UpdateUserController().handle )
+router.put('/update/user' , new UpdateUserController().handle )
 
 router.post('/delete/user' , new DeleteUserController().handle )
 
